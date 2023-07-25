@@ -4,6 +4,17 @@ body {
   background-color: var(--color-background);
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section {
+  padding: 64px 0;
+}
+
 :root {
   --color-primary: #4f4f4f;
   --color-brand: #647B64;
