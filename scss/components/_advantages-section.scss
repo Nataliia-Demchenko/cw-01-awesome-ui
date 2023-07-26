@@ -1,0 +1,16 @@
+.advantages__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__container::before {
+    position: absolute;
+    top: -23px;
+    left: -136px;
+    z-index: -1;
+    width: 600px;
+    height: 160px;
+    background-image: var(--gradient-decor);
+    content: '';
+}

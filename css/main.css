@@ -38,6 +38,27 @@ ul {
   --input-border: #bdbdbd;
 }
 
+.advantages__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantages__container::before {
+  position: absolute;
+  top: -23px;
+  left: -136px;
+  z-index: -1;
+  width: 600px;
+  height: 160px;
+  background-image: var(--gradient-decor);
+  content: "";
+}
+
 .primary-button {
   display: -webkit-box;
   display: -ms-flexbox;
