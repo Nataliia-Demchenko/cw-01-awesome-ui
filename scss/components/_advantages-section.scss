@@ -14,3 +14,13 @@
     background-image: var(--gradient-decor);
     content: '';
 }
+
+.advantages__tagline {
+    color: var(--color-accent);
+    text-transform: uppercase;
+}
+
+.advantages__title {
+    color: var(--color-brand);
+    text-transform: uppercase;
+}
